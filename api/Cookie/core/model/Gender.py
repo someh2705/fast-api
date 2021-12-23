@@ -1,5 +1,5 @@
 from enum import Enum
 
-class Gender(Enum):
-    MALE = 1,
-    FEMALE = 2,
+class CookieGender(Enum):
+    MALE = "남성",
+    FEMALE = "여성",
