@@ -5,5 +5,5 @@ DockerFile 빌드 후 실행시키시면 `localhost:8000/docs` 에서 api 설명
 
 # 실행
 ```bash
-docker-compose up -d
+docker-compose up -d --build
 ```
