@@ -10,11 +10,7 @@ items = [
     Cookie(
         cookie_id = 1,
         cookie_name = "용감한 쿠키",
-        cookie_image = FileResponse(
-            "../Resource/brave-cookie.webp", 
-            filename="brave-cookie.webp", 
-            media_type="image/webp"
-        ),
+        cookie_image = "http://localhost:8000/cookie/v1/cookie/image/brave-cookie.webp",
         cookie_grade = CookieGrade.COMMON,
         cookie_gender = CookieGender.MALE,
         cookie_type = CookieType.CHARGE,
@@ -27,11 +23,7 @@ items = [
     Cookie(
         cookie_id = 2,
         cookie_name = "딸기맛 쿠키",
-        cookie_image = FileResponse(
-            "../Resource/strawberry-cookie.webp", 
-            filename="strawberry-cookie.webp", 
-            media_type="image/webp"
-        ),
+        cookie_image = "http://localhost:8000/cookie/v1/cookie/image/strawberry-cookie.webp",
         cookie_grade = CookieGrade.COMMON,
         cookie_gender = CookieGender.FEMALE,
         cookie_type = CookieType.DEFENSE,
@@ -44,11 +36,7 @@ items = [
     Cookie(
         cookie_id = 3,
         cookie_name = "마법사맛 쿠키",
-        cookie_image = FileResponse(
-            "../Resource/wizard-cookie.webp", 
-            filename="wizard-cookie.webp", 
-            media_type="image/webp"
-        ),
+        cookie_image = "http://localhost:8000/cookie/v1/cookie/image/wizard-cookie.webp",
         cookie_grade = CookieGrade.COMMON,
         cookie_gender = CookieGender.MALE,
         cookie_type = CookieType.MAGIC,
@@ -61,11 +49,7 @@ items = [
     Cookie(
         cookie_id = 4,
         cookie_name = "칠리맛 쿠키",
-        cookie_image = FileResponse(
-            "../Resource/chili-pepper-cookie.webp", 
-            filename="chili-pepper-cookie.webp", 
-            media_type="image/webp"
-        ),
+        cookie_image = "http://localhost:8000/cookie/v1/cookie/image/chili-pepper-cookie.webp",
         cookie_grade = CookieGrade.EPIC,
         cookie_gender = CookieGender.FEMALE,
         cookie_type = CookieType.PENETRATION,
@@ -78,11 +62,7 @@ items = [
     Cookie(
         cookie_id = 5,
         cookie_name = "커스터드 3세맛 쿠키",
-        cookie_image = FileResponse(
-            "../Resource/custard-cookie.webp", 
-            filename="custard-cookie.webp", 
-            media_type="image/webp"
-        ),
+        cookie_image = "http://localhost:8000/cookie/v1/cookie/image/custard-cookie.webp",
         cookie_grade = CookieGrade.RARE,
         cookie_gender = CookieGender.MALE,
         cookie_type = CookieType.HEAL,
@@ -95,11 +75,7 @@ items = [
     Cookie(
         cookie_id = 6,
         cookie_name = "퓨어바닐라 쿠키",
-        cookie_image = FileResponse(
-            "../Resource/pure-vanilla-cookie.webp", 
-            filename="pure-vanilla-cookie.webp", 
-            media_type="image/webp"
-        ),
+        cookie_image = "http://localhost:8000/cookie/v1/cookie/image/pure-vanilla-cookie.webp",
         cookie_grade = CookieGrade.ANCIENT,
         cookie_gender = CookieGender.MALE,
         cookie_type = CookieType.HEAL,
@@ -112,11 +88,7 @@ items = [
     Cookie(
         cookie_id = 7,
         cookie_name = "홀리베리 쿠키",
-        cookie_image = FileResponse(
-            "../Resource/hollyberry-cookie.webp", 
-            filename="hollyberry-cookie.webp", 
-            media_type="image/webp"
-        ),
+        cookie_image = "http://localhost:8000/cookie/v1/cookie/image/hollyberry-cookie.webp",
         cookie_grade = CookieGrade.ANCIENT,
         cookie_gender = CookieGender.FEMALE,
         cookie_type = CookieType.DEFENSE,
@@ -129,11 +101,7 @@ items = [
     Cookie(
         cookie_id = 8,
         cookie_name = "골드치즈 쿠키",
-        cookie_image = FileResponse(
-            "../Resource/golden-cheese-cookie.webp", 
-            filename="golden-cheese-cookie.webp", 
-            media_type="image/webp"
-        ),
+        cookie_image = "http://localhost:8000/cookie/v1/cookie/image/golden-cheese-cookie.webp",
         cookie_grade = CookieGrade.ANCIENT,
         cookie_gender = CookieGender.FEMALE,
         cookie_type = CookieType.SHOOT,
@@ -143,11 +111,7 @@ items = [
     Cookie(
         cookie_id = 9,
         cookie_name = "다크카카오 쿠키",
-        cookie_image = FileResponse(
-            "../Resource/dark-cacao-cookie.webp", 
-            filename="dark-cacao-cookie.webp", 
-            media_type="image/webp"
-        ),
+        cookie_image = "http://localhost:8000/cookie/v1/cookie/image/dark-cacao-cookie.webp",
         cookie_grade = CookieGrade.ANCIENT,
         cookie_gender = CookieGender.MALE,
         cookie_type = CookieType.CHARGE,
@@ -157,11 +121,7 @@ items = [
     Cookie(
         cookie_id = 10,
         cookie_name = "세인트릴리 쿠키",
-        cookie_image = FileResponse(
-            "../Resource/white-lily-cookie.webp", 
-            filename="white-lily-cookie.webp", 
-            media_type="image/webp"
-        ),
+        cookie_image = "http://localhost:8000/cookie/v1/cookie/image/white-lily-cookie.webp",
         cookie_grade = CookieGrade.ANCIENT,
         cookie_gender = CookieGender.FEMALE,
         cookie_type = CookieType.SUPPORT,
@@ -171,25 +131,7 @@ items = [
     Cookie(
         cookie_id = 11,
         cookie_name = "달빛술사 쿠키",
-        cookie_image = FileResponse(
-            "../Resource/moonlight-cookie.webp", 
-            filename="moonlight-cookie.webp", 
-            media_type="image/webp"
-        ),
-        cookie_grade = CookieGrade.LEGENDARY,
-        cookie_gender = CookieGender.FEMALE,
-        cookie_type = None,
-        cookie_position = None,
-        cookie_skill = None
-    ),
-    Cookie(
-        cookie_id = 11,
-        cookie_name = "달빛술사 쿠키",
-        cookie_image = FileResponse(
-            "../Resource/moonlight-cookie.webp", 
-            filename="moonlight-cookie.webp", 
-            media_type="image/webp"
-        ),
+        cookie_image = "http://localhost:8000/cookie/v1/cookie/image/moonlight-cookie.webp",
         cookie_grade = CookieGrade.LEGENDARY,
         cookie_gender = CookieGender.FEMALE,
         cookie_type = None,
@@ -199,11 +141,7 @@ items = [
     Cookie(
         cookie_id = 12,
         cookie_name = "바다요정 쿠키",
-        cookie_image = FileResponse(
-            "../Resource/sea-fairy-cookie.webp", 
-            filename="sea-fairy-cookie.webp", 
-            media_type="image/webp"
-        ),
+        cookie_image = "http://localhost:8000/cookie/v1/cookie/image/sea-fairy-cookie.webp",
         cookie_grade = CookieGrade.LEGENDARY,
         cookie_gender = CookieGender.FEMALE,
         cookie_type = CookieType.EXPLOSION,
@@ -216,11 +154,7 @@ items = [
     Cookie(
         cookie_id = 13,
         cookie_name = "불꽃정령 쿠키",
-        cookie_image = FileResponse(
-            "../Resource/fire-spirit-cookie.webp", 
-            filename="fire-spirit-cookie.webp", 
-            media_type="image/webp"
-        ),
+        cookie_image = "http://localhost:8000/cookie/v1/cookie/image/fire-spirit-cookie.webp",
         cookie_grade = CookieGrade.LEGENDARY,
         cookie_gender = CookieGender.MALE,
         cookie_type = None,
@@ -230,11 +164,7 @@ items = [
     Cookie(
         cookie_id = 14,
         cookie_name = "바람궁수 쿠키",
-        cookie_image = FileResponse(
-            "../Resource/wind-archer-cookie.webp", 
-            filename="wind-archer-cookie.webp", 
-            media_type="image/webp"
-        ),
+        cookie_image = "http://localhost:8000/cookie/v1/cookie/image/wind-archer-cookie.webp",
         cookie_grade = CookieGrade.LEGENDARY,
         cookie_gender = CookieGender.MALE,
         cookie_type = None,
@@ -244,11 +174,7 @@ items = [
     Cookie(
         cookie_id = 15,
         cookie_name = "천년나무 쿠키",
-        cookie_image = FileResponse(
-            "../Resource/millennial-tree-cookie.webp", 
-            filename="millennial-tree-cookie.webp", 
-            media_type="image/webp"
-        ),
+        cookie_image = "http://localhost:8000/cookie/v1/cookie/image/millennial-tree-cookie.webp",
         cookie_grade = CookieGrade.LEGENDARY,
         cookie_gender = CookieGender.MALE,
         cookie_type = None,
@@ -258,11 +184,7 @@ items = [
     Cookie(
         cookie_id = 16,
         cookie_name = "어둠마녀 쿠키",
-        cookie_image = FileResponse(
-            "../Resource/dark-enchantress-cookie.webp", 
-            filename="dark-enchantress-cookie.webp", 
-            media_type="image/webp"
-        ),
+        cookie_image = "http://localhost:8000/cookie/v1/cookie/image/dark-enchantress-cookie.webp",
         cookie_grade = CookieGrade.LEGENDARY,
         cookie_gender = CookieGender.FEMALE,
         cookie_type = CookieType.MAGIC,
@@ -272,11 +194,7 @@ items = [
     Cookie(
         cookie_id = 17,
         cookie_name = "감초맛 쿠키",
-        cookie_image = FileResponse(
-            "../Resource/licorice-cookie.webp", 
-            filename="licorice-cookie.webp", 
-            media_type="image/webp"
-        ),
+        cookie_image = "http://localhost:8000/cookie/v1/cookie/image/licorice-cookie.webp",
         cookie_grade = CookieGrade.EPIC,
         cookie_gender = CookieGender.MALE,
         cookie_type = CookieType.MAGIC,
@@ -289,11 +207,7 @@ items = [
     Cookie(
         cookie_id = 18,
         cookie_name = "독버섯맛 쿠키",
-        cookie_image = FileResponse(
-            "../Resource/poison-mushroom-cookie.webp", 
-            filename="poison-mushroom-cookie.webp", 
-            media_type="image/webp"
-        ),
+        cookie_image = "http://localhost:8000/cookie/v1/cookie/image/poison-mushroom-cookie.webp",
         cookie_grade = CookieGrade.LEGENDARY,
         cookie_gender = CookieGender.MALE,
         cookie_type = CookieType.EXPLOSION,
@@ -306,11 +220,7 @@ items = [
     Cookie(
         cookie_id = 19,
         cookie_name = "석류맛 쿠키",
-        cookie_image = FileResponse(
-            "../Resource/pomegranate-cookie.webp", 
-            filename="pomegranate-cookie.webp", 
-            media_type="image/webp"
-        ),
+        cookie_image = "http://localhost:8000/cookie/v1/cookie/image/pomegranate-cookie.webp",
         cookie_grade = CookieGrade.EPIC,
         cookie_gender = CookieGender.FEMALE,
         cookie_type = CookieType.SUPPORT,
@@ -323,11 +233,7 @@ items = [
     Cookie(
         cookie_id = 20,
         cookie_name = "다크초코 쿠키",
-        cookie_image = FileResponse(
-            "../Resource/dark-choco-cookie.webp", 
-            filename="dark-choco-cookie.webp", 
-            media_type="image/webp"
-        ),
+        cookie_image = "http://localhost:8000/cookie/v1/cookie/image/dark-choco-cookie.webp",
         cookie_grade = CookieGrade.LEGENDARY,
         cookie_gender = CookieGender.MALE,
         cookie_type = None,
