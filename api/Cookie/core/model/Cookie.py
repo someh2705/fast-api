@@ -10,7 +10,7 @@ class Cookie:
         self,
         *,
         cookie_id: int,
-        cookie_image: FileResponse,
+        cookie_image: str,
         cookie_name: str,
         cookie_grade: CookieGrade,
         cookie_gender: CookieGender,
@@ -31,7 +31,7 @@ class Cookie:
         return {
             "cookie_id": self.cookie_id,
             "cookie_name": self.cookie_name,
-            "cookie_grade": self.cookie_grade,
+            "cookie_image": self.cookie_image,
         }
 
     def asJsonDetail(self):
