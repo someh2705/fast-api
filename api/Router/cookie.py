@@ -1,7 +1,6 @@
 from fastapi import APIRouter, HTTPException
-from starlette.responses import FileResponse
+from fastapi.responses import FileResponse
 from Cookie.core.Items import items
-from Cookie.core.model.Cookie import Cookie
 
 router = APIRouter(
     prefix="/cookie/v1"
@@ -37,6 +36,6 @@ async def read_cookie_detail(cookie_id: int):
 async def read_cookie_image(image: str):
     return FileResponse(
             f"Cookie/Resource/{image}", 
-            filename=f"{image}", 
-            media_type="image/png"
+            # filename=f"{image}", 
+            # media_type="image/webp"
         )
